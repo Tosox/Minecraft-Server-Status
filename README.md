@@ -14,7 +14,7 @@
 > python status_check.py -ip mc.hypixel.net --port 25565
 ``` 
 
-| Argument          | Description                                  | Notes                        |
+| Arguments         | Description                                  | Notes                        |
 |-------------------|----------------------------------------------|------------------------------|
 | -ip               | Server address                               |                              |
 | --port            | Server address port                          | optional - Defaults to 25565 |
