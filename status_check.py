@@ -143,7 +143,7 @@ def main(argv: list[str]) -> None:
         print(f'{bcolors.WARNING}Warning: the connection timed out{bcolors.ENDC}')
         return
     if ping.returncode != 0:
-        print(f'{bcolors.FAIL}Error: couldn\'t ping the server. Return code:{bcolors.ENDC}{bcolors.WARNING}{ping.returncode}{bcolors.ENDC}')
+        print(f'{bcolors.FAIL}Error: couldn\'t ping the server. Return code: {ping.returncode}{bcolors.ENDC}')
         return
     
     # Print the server status
