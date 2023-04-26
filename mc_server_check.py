@@ -1,4 +1,3 @@
-import os
 import subprocess
 import sys
 import socket
@@ -113,7 +112,7 @@ def main(argv: list[str]) -> None:
     # Check if the syntax is valid
     argc = len(argv)
     if (argc != 3) and (argc != 5):
-        print(f'{bcolors.FAIL}Error: please use the correct syntax: python {os.path.basename(argv[0])} -ip <address> [OPTIONAL: --port <port>]{bcolors.ENDC}')
+        print(f'{bcolors.FAIL}Error: please use the correct syntax: python mc_server_check.py -ip <address> [Optional: --port <port>]{bcolors.ENDC}')
         return
     
     # Check if the user is connected to the internet
