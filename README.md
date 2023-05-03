@@ -17,42 +17,42 @@
 | Arguments         | Description                                  | Notes                        |
 |-------------------|----------------------------------------------|------------------------------|
 | -ip               | Server address                               |                              |
-| --port            | Server address port                          | optional - Defaults to 25565 |
+| --port            | Server address port                          | Optional - Defaults to 25565 |
 
 ## Example results
 
 ```bash
 # Successful
-> python mc_server_check.py -ip mc.hypixel.net
+> python ./mc_server_check.py -ip mc.hypixel.net
 The server is up and running
 ```
 
 ```bash
 # No server found
-> python mc_server_check.py -ip someserver.com
+> python ./mc_server_check.py -ip someserver.com
 The server is offline or doesn´t exist
 ```
 
 ```bash
 # The server is probably alive but not responding
-> python mc_server_check.py -ip anotherserver.net
+> python ./mc_server_check.py -ip anotherserver.net
 Warning: the connection timed out
 ```
 
 ```bash
 # No internet connection
-> python mc_server_check.py -ip mc.hypixel.net
+> python ./mc_server_check.py -ip mc.hypixel.net
 Error: check your internet connection and try again
 ```
 
 ```bash
 # Something went wrong when testing the connection
-> python mc_server_check.py -ip mc.hypixel.net
+> python ./mc_server_check.py -ip mc.hypixel.net
 Error: couldn´t ping the server. Return code: XY
 ```
 
 ```bash
 # Wrong syntax
-> python mc_server_check.py -address mc.hypixel.net -port
-Error: please use the correct syntax: python mc_server_check.py -ip <address> [OPTIONAL: --port <port>]
+> python ./mc_server_check.py -address mc.hypixel.net -port
+Error: please use the correct syntax: python ./mc_server_check.py -ip <address> [OPTIONAL: --port <port>]
 ```
