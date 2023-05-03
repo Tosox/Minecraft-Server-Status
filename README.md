@@ -4,15 +4,14 @@
 [![](https://img.shields.io/badge/Game-Minecraft-green.svg?style=flat)](https://www.minecraft.net/en-us) 
 [![](https://img.shields.io/github/languages/code-size/TosoxDev/Minecraft-Server-Status?color=blue&label=Code%20size&style=flat)](https://github.com/TosoxDev/Minecraft-Server-Status)
 [![](https://img.shields.io/tokei/lines/github/TosoxDev/Minecraft-Server-Status?color=red&label=Total%20lines&style=flat)](https://github.com/TosoxDev/Minecraft-Server-Status)
-[![](https://img.shields.io/github/downloads/TosoxDev/Minecraft-Server-Status/total?color=green&label=Downloads&style=flat)](https://github.com/TosoxDev/Minecraft-Server-Status/releases)
 
 **A simple server status checker for minecraft written in python**
 
 ## Usage
 
-```cmd
+```bash
 # Example
-> python mc_server_check.py -ip mc.hypixel.net --port 25565
+> python ./mc_server_check.py -ip mc.hypixel.net --port 25565
 ``` 
 
 | Arguments         | Description                                  | Notes                        |
