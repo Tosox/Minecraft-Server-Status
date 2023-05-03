@@ -112,7 +112,7 @@ def main(argv: list[str]) -> None:
     # Check if the syntax is valid
     argc = len(argv)
     if (argc != 3) and (argc != 5):
-        print(f'{bcolors.FAIL}Error: please use the correct syntax: python mc_server_check.py -ip <address> [Optional: --port <port>]{bcolors.ENDC}')
+        print(f'{bcolors.FAIL}Error: please use the correct syntax: python ./mc_server_check.py -ip <address> [Optional: --port <port>]{bcolors.ENDC}')
         return
     
     # Check if the user is connected to the internet
@@ -122,8 +122,12 @@ def main(argv: list[str]) -> None:
         return
     
     # Get the input address
-    address_idx = argv.index('-ip') + 1
-    address = argv[address_idx]
+    try:
+        address_idx = argv.index('-ip') + 1
+        address = argv[address_idx]
+    except ValueError:
+        print(f'{bcolors.FAIL}Error: please use the correct syntax: python ./mc_server_check.py -ip <address> [Optional: --port <port>]{bcolors.ENDC}')
+        return
     
     # Get the optional input port
     try:
