@@ -2,8 +2,8 @@
 
 [![](https://img.shields.io/badge/Language-Python-yellow.svg?style=flat)](https://en.wikipedia.org/wiki/Python_(programming_language)) 
 [![](https://img.shields.io/badge/Game-Minecraft-green.svg?style=flat)](https://www.minecraft.net/en-us) 
-[![](https://img.shields.io/github/languages/code-size/TosoxDev/Minecraft-Server-Status?color=blue&label=Code%20size&style=flat)](https://github.com/TosoxDev/Minecraft-Server-Status)
-[![](https://img.shields.io/tokei/lines/github/TosoxDev/Minecraft-Server-Status?color=red&label=Total%20lines&style=flat)](https://github.com/TosoxDev/Minecraft-Server-Status)
+[![](https://img.shields.io/github/languages/code-size/Tosox/Minecraft-Server-Status?color=blue&label=Code%20size&style=flat)](https://github.com/Tosox/Minecraft-Server-Status)
+[![](https://tokei.rs/b1/github/Tosox/Minecraft-Server-Status?color=red&label=Total%20lines&style=flat)](https://github.com/Tosox/Minecraft-Server-Status)
 
 **A simple server status checker for minecraft written in python**
 
